@@ -1,0 +1,196 @@
+<body>
+  <div class="covering">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa-solid fa-skull"></i></span>
+            <span class="title">SKATE CLUB</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa-solid fa-house"></i></span>
+            <span class="title">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a routerLinkActive="active" [routerLink]="['/users']">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <span class="title">Sing In</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa-solid fa-messages-question"></i></span>
+            <span class="title">Message</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa-brands fa-hire-a-helper"></i></span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-cog fa-spin"></i></span>
+            <span class="title">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa-solid fa-right-from-bracket"></i>
+            </span>
+            <span class="title">Sing Out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="topbar">
+        <div class="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="search">
+          <label>
+            <input type="text" placeholder="search...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+        </div>
+        <div class="user">
+          <img src="assets/images/logo.webp" alt="">
+        </div>
+      </div>
+      <div class="cardBox">
+        <div class="card">
+          <div>
+            <div class="numbers">1,580</div>
+            <div class="cardName">Daily Views</div>
+          </div>
+          <div class="iconBx">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">80</div>
+            <div class="cardName">Sales</div>
+          </div>
+          <div class="iconBx">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">289</div>
+            <div class="cardName">Comments</div>
+          </div>
+          <div class="iconBx">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">$ 7.896</div>
+            <div class="cardName">Earning</div>
+          </div>
+          <div class="iconBx">
+            <i class="fa-solid fa-money-bill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="recentOrders">
+          <div class="cardHeader">
+            <h2>Recent Orders</h2>
+            <a href="#" class="btnr">View All</a>
+          </div>
+          <th>
+            <thead>
+              <tr>
+                <td>Name</td>                                              
+                <td>Sale Value</td>
+                <td>Phone</td>
+                <td>Supplier</td>
+                <td>CNPJ</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Shape Tron</td>
+                <td>R$ 920,00</td>
+                <td>(021) 99532053</td>
+                <td>SkateClub LTDA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+                <div class="imgBx">
+                  <img src="assets/images/img1.jpg" alt="">
+                </div>
+              </tr>
+              <tr>
+                <td>Bearing Red Bones</td>
+                <td>R$ 279,00</td>
+                <td>(021) 99532053</td>
+                <td>Peralta SA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+                <div class="imgBx">
+                  <img src="assets/images/img2.jpg" alt="">
+                </div>
+              </tr>
+              <tr>
+                <td>Wheel Black Sheep</td>
+                <td>R$ 129,00</td>
+                <td>(021) 99532053</td>
+                <td>Black Sheep LTDA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Due</td>
+                <td><span class="status inProgress">In Progress</span></td>
+                <div class="imgBx">
+                  <img src="assets/images/img3.jpg" alt="">
+                </div>
+              </tr>
+              <tr>
+                <td>Wheel Bones</td>
+                <td>R$ 550,00</td>
+                <td>(021) 99532053</td>
+                <td>SkateClub LTDA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Paid</td>
+                <td><span class="status pending">Pending</span></td>
+                <div class="imgBx">
+                  <img src="assets/images/img4.jpg" alt="">
+                </div>
+              </tr>
+              <tr>
+                <td>Truck Independent</td>
+                <td>R$ 774,00</td>
+                <td>(021) 99532053</td>
+                <td>Independent SA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Paid</td>
+                <td><span class="status return">Return</span></td>
+                <div class="imgBx">
+                  <img src="assets/images/img5.jpg" alt="">
+                </div>
+              </tr>
+              <tr>
+                <td>Shape Powell Peralta</td>
+                <td>R$ 1.920,00</td>
+                <td>(021) 99532053</td>
+                <td>Peralta LTDA</td>
+                <td>XX. XXX. XXX/0001-XX</td>
+                <td>Due</td>
+                <td><span class="status pending">Pending</span></td>
+              </tr>              
+            </tbody>
+          </th>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

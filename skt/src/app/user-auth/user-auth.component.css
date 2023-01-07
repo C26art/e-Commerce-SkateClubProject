@@ -1,14 +1,22 @@
 .user-auth h1{
   margin-top: 50px;
   margin-bottom: 80px;
-  color: blueviolet;  
+  color: red;  
   text-align: center; 
 }
 
+h1{
+  padding-top: 30px;
+  font-weight: 600; 
+}
+
 .user-auth {
-  margin-bottom: 100px;
+  margin-bottom: 100px;   
 }
 .user-auth a{
-  color: blueviolet;
+  color: red;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
 }

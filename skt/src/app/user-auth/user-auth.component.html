@@ -1,8 +1,8 @@
-<div class="user-auth">
+<div class="user-auth" [ngStyle]="{backgroundImage:'url(assets/images/back.jpg)'}">
   <div *ngIf="!showLogin"  class="sign-up">
    <h1>User Signup</h1>
    <form #userSignUp="ngForm" class="common-form" (ngSubmit)="signUp(userSignUp.value)">
-     <input
+     <input style="margin-top: -20px;"
        type="text"
        class="form-input"
        name="name"

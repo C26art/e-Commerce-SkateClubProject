@@ -41,6 +41,12 @@
       "password": "123",
       "email": "cristianmc100@gmail.com",
       "id": 17
+    },
+    {
+      "name": "Cristian Mitidieri ",
+      "password": "123",
+      "email": "cristiancarvalhal@hotmail.com",
+      "id": 18
     }
   ],
   "products": [
@@ -143,6 +149,12 @@
       "email": "",
       "password": "",
       "id": 6
+    },
+    {
+      "name": "Cristian Mitidieri ",
+      "email": "cristiancarvalhal@hotmail.com",
+      "password": "123",
+      "id": 7
     }
   ],
   "cart": [

@@ -1,8 +1,8 @@
-<div class="seller-auth">
+<div class="seller-auth" [ngStyle]="{backgroundImage:'url(assets/images/back.jpg)'}">
   <div *ngIf="!showLogin" class="sign-up">
     <h1>Seller sign-up</h1>
     <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
-      <input
+      <input style="margin-top: -20px;"
         type="text"
         class="form-input"
         placeholder="Enter Name"
@@ -23,8 +23,8 @@
         name="email"
         ngModel
       />
-      <button class="form-button">Sign Up</button>
-      <a class="auth-toggle-link" (click)="openLogin()">Already have account? Click for Login</a>
+      <button class="form-button">Sign Up</button>      
+      <p>Already have account ? <a (click)="openLogin()" >Click Here</a></p>
     </form>
   </div>
 
@@ -47,7 +47,8 @@
         ngModel
       />
       <button class="form-button">Login</button>
-      <a class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click for sign-up</a>
+      
+      <p>Don't have account ? <a class="auth-toggle-link" (click)="openSignUp()" >Click for sign-up</a></p>
 
     </form>
   </div>

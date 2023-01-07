@@ -4,11 +4,23 @@
 .sign-up h1, .login h1{
   margin-top: 50px;
   margin-bottom: 80px;
-  color: blueviolet;
+  color: red;
 }
 .auth-toggle-link{
   color: blueviolet;
   font-size: 14px;
   margin-top: 20px;
   text-align: left;
+}
+h1{
+  padding-top: 30px;
+  font-weight: 600; 
+}
+.seller-auth a{
+  color: red;
+  cursor: pointer;  
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 10px;
 }
